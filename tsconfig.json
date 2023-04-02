@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es2015",
+    "strict": true,
+    "outDir": "./dist",  // outDir:用来指定被编译后js文件所在的目录
+    "noEmitOnError": true  // 有错误时不去编译
+  },
+  "include": [
+    "./src/**/*"  // include:被编译文件所在的目录
+  ]
+}
